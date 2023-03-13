@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #39429f;
+    overflow-x: hidden;
+
+}
+
+.plane img {
+
+    rotate: 360deg;
+    position: absolute;
+    left: -30%;
+    animation: mig29p 10s linear 2s 1;
+    margin: 11.6rem;
+}
+
+@keyframes mig29p {
+    from {
+        left: -60%;
+    }
+
+    to {
+
+        left: 100%;
+    }
+}
+
+.plane2 img {
+    rotate: 180deg;
+    position: absolute;
+    right: -30%;
+    animation: mig29 10s linear 2s 1;
+    margin: 12rem;
+
+}
+
+@keyframes mig29 {
+    from {
+        right: -60%;
+    }
+
+    to {
+        right: 100%;
+    }
+}
